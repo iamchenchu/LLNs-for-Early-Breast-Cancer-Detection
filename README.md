@@ -6,9 +6,14 @@ This model objectives is not just detecting the cancer classification but also d
 ### Repository Contents
 - **LNN_BreastMnist_Classification.ipynb**: Jupyter Notebook for training the LNN model on the BreastMNIST dataset.
 - **models.py**: Python module containing the implementation of the LNN model, and also CNN and DNN for comparision purposes.
+- **Proposed Model**:
+![Proposed Model](proposed_model.png)
+This architecture developed with the combination of CNNs and NCPs, This combination is taking the advantage of LNNs to processes the temporal and spacial data effectively. Observe the below table for better understand of the model results comparision which the conventional models which have millions of parameters, but our proposed model is giving effective results with just 0.26M parameters.
+![Results Comparision](results_comparision.png)
 
 ### Dataset : BreastMNIST from MedMNIST
 The BreastMNIST is based on a dataset25 of 780 breast ultrasound images. It is categorized into 3 classes: normal, benign, and malignant. As we use low-resolution images, we simplify the task into binary classification by combining normal and benign as positive and classifying them against malignant as negative.The source images of 1 × 500 × 500 are resized into 1 × 28 × 28, for more info please follow the website provided. [BreastMNIST Dataset](https://medmnist.com/)
+
 
 ### Prerequisites to run the program 
 Here is the list of all the packages you need to install to run the program
