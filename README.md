@@ -38,7 +38,7 @@ pip install torch torchvision tqdm medmnist matplotlib seaborn scikit-learn open
 
 1. __Clone the repository__:
     ```bash
-    git clone https://github.com/2ai-lab/LLNs-for-Early-Breast-Cancer-Detection
+    git clone https://github.com/iamchenchu/LLNs-for-Early-Breast-Cancer-Detection.git
     ```
 2. __Change directory to LLNs-for-Early-Breast-Cancer-Detection__
 ```bash
